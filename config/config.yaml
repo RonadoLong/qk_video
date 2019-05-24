@@ -1,0 +1,38 @@
+
+runtimeMode:
+    dev: dev
+    pro: pro
+
+server:
+  dev:
+    host: 0.0.0.0:9527
+    version: 1.0
+  pro:
+    host: 0.0.0.0:9527
+    version: 1.0
+
+mysql:
+  dev:
+    host: root:1qaz!QAZ@(cdb-9xk1v1b9.gz.tencentcdb.com:10058)/qk_video?charset=utf8mb4&parseTime=True&loc=Local
+    logLevel: dev
+
+  pro:
+    host: root:1qaz!QAZ@(cdb-9xk1v1b9.gz.tencentcdb.com:10058)/qk_video?charset=utf8mb4&parseTime=True&loc=Local
+    logLevel: pro
+
+token:
+  dev:
+    key: Authorization
+  pro:
+    key: Authorization
+
+redis:
+  dev:
+    host: 47.75.33.6:16379
+    password: 1qaz!QAZ
+    IdleTimeout: 210
+
+  pro:
+    host: 47.75.33.6:16379
+    password: 1qaz!QAZ
+    IdleTimeout: 210
